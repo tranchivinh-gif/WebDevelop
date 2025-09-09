@@ -12,4 +12,5 @@ switch (diem) {
 var so = eval(prompt("nhap so can tinh bang cuu chuong:"));
 for (i = 1; i <= 10; i++) {
     document.write(so + " * " + i + " = " + (so * i) + "<br >");
-} 
+}
+hehe
