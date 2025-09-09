@@ -1,2 +1,1 @@
-# WebDevelop
-This is a file that stores my web programming learning process.
+tren day la nhung gi khi toi hoc tren lop
