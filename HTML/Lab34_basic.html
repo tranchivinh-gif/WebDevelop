@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 20px 20px;
+            align-content: center;
+
+        }
+
+        .container1 {
+            display: flex;
+            border: 1px solid black;
+            font: 1em sans-serif;
+
+        }
+
+        .container {
+            border: 1px solid black;
+            background-color: lightblue;
+        }
+
+        #mot img {
+            width: 300px;
+            height: 300px;
+            border-radius: 1000px;
+        }
+
+        #hai {
+            width: 60%;
+            font-size: 29px;
+        }
+
+        ul {
+            font-size: 20px;
+        }
+
+        li:hover {
+            color: red;
+            background-color: teal;
+        }
+
+        ul {
+            margin: 20px 0px;
+            padding: 10px;
+            width: 50%;
+        }
+
+        .container1 table,
+        .container1 td {
+            width: 50%;
+            border-collapse: collapse;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        table {
+            height: 200px;
+
+        }
+
+        form {
+            margin: 20px auto;
+            border: 1px solid black;
+            width: 400px;
+            padding: 10px;
+        }
+
+        #cotcuoi {
+            text-align: center;
+        }
+
+        input {
+            border-radius: 100px;
+        }
+
+        #cotcuoi input:hover {
+            background-color: red;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        nav {
+            justify-self: center;
+        }
+
+        figure img {
+            box-shadow: 10px 10px 10px rgb(207, 32, 32);
+            border-radius: 1000px;
+            width: 300px;
+            height: 300px;
+        }
+
+        .album {
+            display: grid;
+            justify-content: center;
+            grid-row: inherit;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+        }
+
+        .album img {
+            box-sizing: border-box;
+            width: 200px;
+            height: 200px;
+
+        }
+
+        iframe {
+            border-radius: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>thong tin ca nhan</h2>
+        <div class="container1">
+            <div id="mot">
+                <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            </div>
+            <div id="hai">
+                ho ten: tran chi Vinh <br>
+                tuoi: 21 <br>
+                nganh: cong nghe thong tin
+            </div>
+        </div>
+        <div class="container1">
+            <div>
+                <ul>
+                    <caption>danh sach mon hoc yeu thich</caption>
+                    <li>toan</li>
+                    <li>van</li>
+                    <li>anh</li>
+                </ul>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td>thu</td>
+                        <td>thu</td>
+                        <td>thu</td>
+                        <td>thu</td>
+                        <td>thu</td>
+                        <td>thu</td>
+                        <td>thu</td>
+
+                    </tr>
+                    <tr>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                    </tr>
+                    <tr>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                        <td>hehe</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div>
+            <form action="">
+                <table>
+                    <caption>dang ki thong tin</caption>
+                    <tr>
+                        <td>ten</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>email</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>so dien thoai</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>gioi tinh</td>
+                        <td> Nam
+                            <input type="radio" name="gioitinh">
+                            Nu
+                            <input type="radio" name="gioitinh">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="cotcuoi" colspan="2">
+                            <input type="submit">
+                        </td>
+
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <nav>
+            <a href="index.html">Trang chủ</a>
+            <a href="monhoc.html">Môn học</a>
+            <a href="thoikhoabieu.html">Thời khóa biểu</a>
+            <a href="lienhe.html">Liên hệ</a>
+        </nav>
+        <div>
+            <figure><img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+                <figcaption>anh minh hoa</figcaption>
+            </figure>
+        </div>
+        <h3>album </h3>
+        <div class="album">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+        </div>
+
+        <div>
+            <h3>Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/f3QmvxbzutQ?si=a3hFljXEp1x_4RCP"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

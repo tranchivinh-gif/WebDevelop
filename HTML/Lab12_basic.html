@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 20px 20px;
+            align-content: center;
+
+        }
+
+        #container {
+            display: flex;
+            padding: 50px;
+            margin: 20px auto;
+            border-bottom: 1px solid black;
+
+        }
+
+        #container img {
+            width: 300px;
+            height: 200px;
+        }
+
+        #khungchinh {
+            border: 1px solid black;
+        }
+
+        #container #bang1 table,
+        #bang1 tr,
+        #bang1 td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        #container table {
+            margin-left: 30px;
+            width: 300px;
+        }
+
+        #border_form {
+            border: 1px solid black;
+            width: 400px;
+            margin: 5px 40px;
+        }
+
+        #border_form #bang2 caption {
+            text-align: center;
+        }
+
+        #dongcuoiform {
+            text-align: center;
+        }
+
+        #album {
+            display: flex;
+            justify-content: center;
+        }
+
+        #album img {
+            box-sizing: border-box;
+            width: 200px;
+            height: 200px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        #nut {
+            text-align: center;
+            display: block;
+
+            margin: 0 auto;
+        }
+
+        #mot {
+            display: flex;
+        }
+
+        form {
+            display: flex;
+            border: 1px solid black;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="khungchinh">
+        <div id="container">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <div>
+                họ tên: Tran Chi Vinh <br>
+                ngày sinh: 01/01/2004 <br>
+                sở thích: nghe nhac, doc sach <br>
+                mô tả ngắn: nang dong, zui tinh <br>
+
+            </div>
+        </div>
+        <div id="container">
+            <ul>
+                <caption>Mon Hoc yeu thich</caption>
+                <li>Toan</li>
+                <li>Van</li>
+                <li>Anh</li>
+            </ul>
+            <table id="bang1">
+                <tr>
+                    <td>Thứ</td>
+                    <td>Môn học</td>
+                    <td>Giờ học</td>
+                    <td>Phòng học</td>
+
+                </tr>
+                <tr>
+                    <td>Thứ</td>
+                    <td>Môn học</td>
+                    <td>Giờ học</td>
+                    <td>Phòng học</td>
+                </tr>
+                <tr>
+                    <td>Thứ</td>
+                    <td>Môn học</td>
+                    <td>Giờ học</td>
+                    <td>Phòng học</td>
+                </tr>
+            </table>
+        </div>
+        <div id="border_form">
+            <form action="">
+
+                <table id="bang2">
+                    <caption>Form dang ky</caption>
+                    <tr>
+                        <td>tên</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>email</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>số điện thoại</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>giới tính</td>
+                        <td>
+                            Nam
+                            <input type="radio" name="gioitinh">
+                            Nu
+                            <input type="radio" name="gioitinh">
+                        </td>
+                    </tr>
+                    <tr id="dongcuoiform">
+                        <td colspan="2">
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <p>Album</p>
+        <div id="album">
+
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+            <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="">
+        </div>
+        <div>
+            <audio controls src="../MUSIC/Track001.mp3"></audio>
+        </div>
+        <div id="mot">
+            <div id="form1">
+                <form action="">
+                    <table>
+                        <caption>form dang ky</caption>
+                        <tr>
+                            <td>username</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="form1">
+                <form action="">
+                    <table>
+                        <caption>Khao sat y kien nguoi dung</caption>
+                        <tr>
+                            <td>radio</td>
+                            <td>
+                                <input type="radio" name="ks2">
+                                <input type="radio" name="ks2">
+                                <input type="radio" name="ks2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>checkbox</td>
+                            <td>
+                                <input type="checkbox" name="cb1">
+                                <input type="checkbox" name="cb1">
+                                <input type="checkbox" name="cb1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>textare</td>
+                            <td>
+                                <textarea name="ksta" id=""></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>select</td>
+                            <td>
+                                <select name="luachon" id="lc">
+                                    <option value="1">di hoc</option>
+                                    <option value="1">di choi</option>
+                                    <option value="1">di ve</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input id="nut" type="submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div>
+                <form action="">
+                    <table>
+                        <caption>form dat ban</caption>
+                        <tr>
+                            <td>nhap ten:</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>so nguoi: </td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>ngay gio:</td>
+                            <td><input type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>yeu cau dac biet</td>
+                            <td>
+                                <textarea name="yeucau"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

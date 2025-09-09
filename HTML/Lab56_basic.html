@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 56</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+        }
+
+        section {
+            display: flex;
+        }
+
+        .phan1 {
+            width: 30%;
+            border: 1px solid black;
+            height: 100%;
+
+        }
+
+        .phan1 .anhdaidien {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+        }
+
+        .anhdaidien img {
+            width: 300px;
+            height: 300px;
+            border-radius: 100vh;
+            margin: 30px;
+            box-shadow: rgb(227, 48, 48) 10px 20px 10px;
+        }
+
+        .phan1 .thongtin {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .thongtin li {
+            font-size: 30px;
+        }
+
+
+
+        .phan2 {
+            width: 70%;
+            border: 1px solid black;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+        }
+
+        .phan2 p {
+            font-size: 30px;
+            margin: 20px 20px;
+            padding: 20px 20px;
+        }
+
+        .phan2 h1 {
+            grid-column: 1 / -1;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>CV</h1>
+    </header>
+    <section>
+        <div class="phan1">
+            <div class="anhdaidien">
+                <img src="../IMG/Ảnh chụp màn hình 2024-06-12 210413.png" alt="anhdaidien">
+            </div>
+            <div class="thongtin">
+                <ul>
+                    <li>Ten: Tran Chi Vinh</li>
+                    <li>Ngay Sinh: 1/11/2004</li>
+                    <li>So Thich: Di choi, an uong</li>
+                    <li>So Truong: noi phet</li>
+                </ul>
+            </div>
+        </div>
+        <div class="phan2">
+            <h1>Mon Hoc Yeu Thich</h1>
+            <p>toan</p>
+            <p>van</p>
+            <p>anh</p>
+            <p>ly</p>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
+
+
+<!-- <section>
+    <div class="ql">
+        
+    </div>
+</section> -->
